@@ -150,3 +150,5 @@ def navn(hej):
 while True:
     x = input("Hej, hvad hedder du? \n")
     print(navn(x))
+
+"hej"
