@@ -14,7 +14,7 @@ def char(c):
     else:
         return "Så gå et andet sted hen, tak.\n\n"
 
-
-while True:
-    valg = input("Har du svært ved at vælge karakter? \n").lower()
-    console.print(char(valg))
+if __name__ == "__main__":
+    while True:
+        valg = input("Har du svært ved at vælge karakter? \n").lower()
+        console.print(char(valg))
