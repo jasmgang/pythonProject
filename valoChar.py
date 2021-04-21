@@ -10,7 +10,7 @@ karakter = ['Astra', 'Breach', 'Brimstone', 'Cypher', 'Jett', 'Killjoy', 'Omen',
 def char(c):
     if "ja" in c or c == "j" or c == "":
         return f"Du skal spille" \
-            f" [yellow]{random.choices(karakter, weights=(3, 2, 2, 12, 1, 20, 2, 2, 1, 1, 50, 5, 8, 1), k=1)[0]}[/yellow] i den næste kamp\n\n"
+            f" [yellow]{random.choices(karakter, weights=(5, 2, 2, 12, 1, 20, 4, 2, 1, 1, 50, 5, 8, 1), k=1)[0]}[/yellow] i den næste kamp\n\n"
     else:
         return "Så gå et andet sted hen, tak.\n\n"
 
